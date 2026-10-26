@@ -1,0 +1,74 @@
+
+MODEL: gemini-3.5-flash-lite | RUN: 1
+[model] gemini-3.5-flash-lite
+[質問] What is LoRA? Explain briefly in English.
+
+**LoRA** stands for **Low-Rank Adaptation**. 
+
+It is a popular and efficient technique used in Artificial Intelligence (especially with Large Language Models like GPT) to **fine-tune** models faster and with much less computer memory.
+
+Here is how it works in simple terms:
+
+* **The Problem:** Training a whole AI model requires updating billions of parameters, which is very expensive and slow.
+* **The LoRA Solution:** Instead of changing the original model, LoRA keeps the original model frozen and adds a tiny "side-folder" of new weights (parameters) specifically for a new task. 
+* **The Analogy:** Imagine writing notes in a small notebook instead of rewriting an entire 500-page textbook. 
+
+**Main Benefits:**
+1. **Cost-effective:** Requires much less GPU power.
+2. **Fast:** Trains in a fraction of the time.
+3. **Small File Size:** LoRA files are usually just a few megabytes, making them easy to share.
+
+MODEL: gemini-3.5-flash-lite | RUN: 2
+[model] gemini-3.5-flash-lite
+[質問] What is LoRA? Explain briefly in English.
+
+**LoRA** stands for **Low-Rank Adaptation**. 
+
+Put simply, it is a technique used to **fine-tune large AI models** (like GPT or image generators) much faster and with a lot less computer memory.
+
+Here is how it works:
+* **The Problem:** Training a giant AI model from scratch requires changing *billions* of settings (parameters), which takes massive computing power and time.
+* **The LoRA Solution:** Instead of changing the whole original model, LoRA keeps the main model "frozen" and only adds a tiny, separate side-folder of new weights (the "low-rank" part). 
+
+**Why it matters:** 
+* It drastically reduces the file size (from gigabytes to megabytes).
+* It allows people to customize powerful AI models on consumer-grade computers (like a home PC).
+
+MODEL: gemini-3.5-flash-lite | RUN: 3
+[model] gemini-3.5-flash-lite
+[質問] What is LoRA? Explain briefly in English.
+
+**LoRA** stands for **Low-Rank Adaptation**. 
+
+In simple terms, it is a technique used to **efficiently fine-tune large AI models** (like Large Language Models or image generators) without having to retrain the entire model from scratch.
+
+Here is how it works in 3 key points:
+1. **The Problem:** Training a massive AI model requires enormous computing power and time because it has billions of parameters (weights).
+2. **The LoRA Solution:** Instead of changing all the original parameters, LoRA **freezes** the original model and adds a tiny set of new parameters (a "low-rank" matrix) on top of it. 
+3. **The Benefit:** You only train this tiny new layer. This reduces the required memory and training time by up to 90%, while still allowing the AI to learn new skills, styles, or specific information.
+
+MODEL: gemini-3.8-flash | RUN: 1
+[model] gemini-3.8-flash
+[質問] What is LoRA? Explain briefly in English.
+
+**LoRA** stands for **Low-Rank Adaptation**. It is a parameter-efficient fine-tuning (PEFT) technique used to customize large AI models (like LLMs or image generators) quickly and cheaply.
+
+### How it works:
+Instead of retraining all billions of parameters in a base model (which requires massive computing power):
+1. **Freezes the original model:** The base model's weights remain untouched.
+2. **Adds small adapter matrices:** It injects a pair of small, low-rank matrices into the model's layers to learn the new task.
+
+### Key benefits:
+* **Much lower hardware requirements:** Fine-tune models using consumer GPUs instead of enterprise servers.
+* **Tiny file sizes:** LoRA files are usually a few megabytes to gigabytes, compared to tens of gigabytes for full models.
+* **Modularity:** You can easily swap different LoRA adapters (e.g., one for coding, one for creative writing) on top of the same frozen base model without duplicating it.
+
+MODEL: gemini-3.8-flash | RUN: 2
+[model] gemini-3.8-flash
+[質問] What is LoRA? Explain briefly in English.
+
+モデルが混み合っています（503）。少し待ってから再実行してください。
+
+MODEL: gemini-3.8-flash | RUN: 3
+
+Run 3 exit status: 143 (0=success, 124=time limit reached)
